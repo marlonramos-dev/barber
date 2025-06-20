@@ -1,0 +1,39 @@
+name: dreamflow
+description: "Barber & Bella APP - Sistema de Gerenciamento para Barbearias e Salões"
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  printing: ^5.0.0
+  pdf: ^3.0.0
+  device_info_plus: ^11.0.0
+  encrypt: ^5.0.0
+  path: ^1.0.0
+  sqflite: ^2.0.0
+  intl: 0.20.2
+  file_picker: '>=8.1.2'
+  permission_handler: ^12.0.0
+  contacts_service: 0.6.3
+  image_picker: '>=1.1.2'
+  url_launcher: ^6.0.0
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  fl_chart: 0.68.0
+  google_fonts: 6.1.0
+  shared_preferences: ^2.3.2
+  path_provider: 2.1.4
+  provider: 6.1.2
+  http: '>=1.0.0'
+  uuid: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  change_app_package_name: ^1.4.0
+
+flutter:
+  uses-material-design: true
